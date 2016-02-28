@@ -1,8 +1,7 @@
 #The CodeBook
 The script merges number of different data files into one single dataset.
 
-The dataset includes the following datafiles:
-=========================================
+###The dataset includes the following datafiles:
 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 
