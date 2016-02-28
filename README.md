@@ -2,10 +2,20 @@
 
 This repo contains my solution to the Getting and Cleaning Data Peer Assessment.
 
-Simply execute "run_analysis.R". Download the data from mentioned link and copy the folder in working folder.
+1. Download the data from mentioned link and extract the folder in working folder.
 Extract it in the right place. for example: "activity_labels.txt" file should be "UCI HAR Dataset/activity_labels.txt".
 
-Change your working folder with my working folder which is "C:/Krishna/MyProject/DataScience/3_Data_Cleaning/Assignment__3_4"
+2. If Data.table and reshape2 does not exists in R install them.
+
+install.packages("data.table")
+library(data.table)
+
+install.packages("reshape2")
+library(reshape2)
+
+3. Change your working folder with my working folder which is "C:/Krishna/MyProject/DataScience/3_Data_Cleaning/Assignment__3_4"
+
+4. Now execute "run_analysis.R". 
 
 ##The purpose of the exercise:
 
