@@ -7,11 +7,11 @@ Extract it in the right place. for example: "activity_labels.txt" file should be
 
 2. If Data.table and reshape2 does not exists in R install them.
 
-install.packages("data.table")
-library(data.table)
+	install.packages("data.table")
+	library(data.table)
 
-install.packages("reshape2")
-library(reshape2)
+	install.packages("reshape2")
+	library(reshape2)
 
 3. Change your working folder with my working folder which is "C:/Krishna/MyProject/DataScience/3_Data_Cleaning/Assignment__3_4"
 
